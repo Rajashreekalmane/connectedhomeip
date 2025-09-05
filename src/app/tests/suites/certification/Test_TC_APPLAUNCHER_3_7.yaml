@@ -49,7 +49,7 @@ tests:
       arguments:
           values:
               - name: "Data"
-                value: "DataValue"
+                value: DataValue
               - name: "Application"
                 value:
                     {
@@ -61,7 +61,7 @@ tests:
               - name: "Status"
                 value: 0
               - name: "Data"
-                value: "DataValue"
+                value: DataValue
 
     - label: "Step 2b: TH reads the Status attribute"
       endpoint: ApplicationBasic.Endpoint
